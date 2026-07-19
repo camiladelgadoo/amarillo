@@ -114,10 +114,7 @@ html {
 
 .parallax {
   background-image: url('imagenes/fondo.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100svh;
+
 }
 .curvas-container {
   position: relative;
@@ -258,11 +255,12 @@ h1 {
     margin-bottom: 0.5rem;
     }
     @media screen and (max-width: 768px) {
-  .parallax {
+  
+      .parallax {
     min-height: 100svh;
     background-size: cover;
     background-position: center top;
   }
 
- 
+
 }
