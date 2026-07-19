@@ -1,11 +1,10 @@
 
 :root {
-
---champagne: #E8D5A3;
---champagneOscuro: #C9A646;
+ --champagne: #E8D5A3;
+ --champagneOscuro: #C9A646;
 --champagneClaro: #F5EFE0;
---marfil: #FFFFF0;
---marron: #6B4F2A;
+ /* --champagne: #db00f8; */
+
 }
 
 
@@ -53,7 +52,7 @@ html {
 
 .heart-icon {
     margin: 1rem 0;
-    color: var(--champagne);
+     color: var(--champagne);
     font-size: 1.5rem;
     animation: heartBeat 2s infinite;
 }
@@ -77,7 +76,7 @@ html {
 }
 
 .footer-info {
-    color: var(--champagneOscuro);
+     color: var(--champagne);
 }
 
 .footer-info p {
@@ -90,7 +89,7 @@ html {
        color: var(--champagne);
 }
 .btn-yellow {
-  background-color: var(--champagneOscuro); /* equivalente a bg-violet-300 */
+  background-color: var(--champagne); /* equivalente a bg-violet-300 */
   color: white;              /* text-white */
   font-size: 0.875rem;       /* text-sm */
   font-weight: 500;          /* font-medium */
@@ -114,8 +113,14 @@ html {
 
 .parallax {
   background-image: url('imagenes/fondo.png');
-
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  min-height: 100vh;
 }
+
+
 .curvas-container {
   position: relative;
   height: 550px; 
@@ -129,7 +134,7 @@ html {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background-color: var(--champagneOscuro) ;
+  background-color:  var(--champagneOscuro) ;
   z-index: 10; 
 }
 .lineas {
@@ -195,14 +200,14 @@ path {
 .card .p-detalles {
   font-size: 0.95rem;
   line-height: 1.6;
-  color: var(--champagneOscuro) ;
+ color:  var(--champagneOscuro) ;
 }
 .boton-detalles {
   font-size: 0.875rem;
   letter-spacing: 0.3px;
 }
 /*-------RESPONSIVE-----------*/
-@media screen and (max-width:1200px) {
+@media screen and (max-width:2000px) {
   .debajo-reloj{
     margin-top: 10px;
   }
@@ -254,13 +259,3 @@ h1 {
     color: var(--champagne);
     margin-bottom: 0.5rem;
     }
-    @media screen and (max-width: 768px) {
-  
-      .parallax {
-    min-height: 100svh;
-    background-size: cover;
-    background-position: center top;
-  }
-
-
-}
