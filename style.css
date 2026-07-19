@@ -89,7 +89,7 @@ html {
        color: var(--champagne);
 }
 .btn-yellow {
-  background-color: var(--champagne); /* equivalente a bg-violet-300 */
+  background-color: var(--champagneOscuro); /* equivalente a bg-violet-300 */
   color: white;              /* text-white */
   font-size: 0.875rem;       /* text-sm */
   font-weight: 500;          /* font-medium */
@@ -100,7 +100,7 @@ html {
 }
 
 .btn-yellow:hover {
-  background-color: var(--champagne); /* equivalente a hover:bg-violet-400 */
+  background-color: var(--champagneOscuro); /* equivalente a hover:bg-violet-400 */
 }
 .titulo-secundario {
  /* font-size: 1.125rem;       /* text-lg */
